@@ -1,0 +1,109 @@
+h1#nombre{
+    font-size: 250%;
+}
+body{
+    background-color: rgb(117, 251, 251);
+    margin:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titulo{
+    line-height: 0.3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.skills{
+    font-weight: 550;
+}
+.skills>b{
+    font-weight:bolder ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+ #inicio img{
+    float:left;
+    width:200px;
+    object-fit: cover;
+}
+.withfork{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;   
+}
+.withfork #titulo-insignias{
+    align-self: self-start ;  
+}
+.withfork img{
+    align-self: center;
+    width: 140px;
+}
+
+div h2{
+    text-align: justify;
+}
+h2+p{
+    margin-left: 5em;
+    margin-right: 15em;
+
+    text-align: justify;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 60%;
+}
+th, td{
+    width: fit-content;
+    text-align: left;
+    border:2px solid black ;
+    border-spacing: 0;
+}
+th{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: large;
+}
+td{
+    font-weight:bold;
+    font-family: Helvetica, sans-serif;
+}
+
+#insignias{ 
+    padding-block: auto;
+    height: 200px;   
+}
+.subtitulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+b {
+  font-weight: 900;  
+}
+.parrafos{
+    font-family:cursive;
+    font-weight: 200%;
+}
+button{
+    background-color: rgb(204, 160, 245);
+    width: 80px;
+    height:30px;
+    font-family:fantasy;
+    font-size: large;
+}
+button:hover{
+    box-shadow: 0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    cursor:pointer;
+   
+}
+tr:hover{
+    color: rgb(3, 23, 28);
+    background-color: rgb(199, 131, 233);
+    font-style: italic;
+}
+.idioma{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 105%;
+
+}
+
+
